@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        a:active {
+            color: yellow;
+        }
+        a:visited {
+            color:darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a::before {
+            content: '↠';
+        }
+        a::after {
+            content: '↞';
+        }
+        a {
+            background-color: rgba(252, 54, 54, 0.507);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.facebook.com/lucas.leonardo.54772" target="_blank">Meu Facebook</a></li>
+        <li><a href="https://www.globo.com/" target="_blank">Site da Globo</a></li>
+        <li><a href="https://www.bet365.com/#/HO/" target="_blank">Site da BET365</a></li>
+    </ul>
+</body>
+</html>
