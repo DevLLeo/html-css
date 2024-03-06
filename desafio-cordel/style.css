@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 body {
     margin: 0px;
+    height: 100vh;
 }
 header {
     background-color: black;
@@ -33,7 +34,7 @@ a:hover {
     text-decoration: underline;
 }
 main > p {
-    font-size: x-large;
+    font-size: 3vw;
     font-family: Sriracha, cursive;
     padding: 20px;
     margin-top: 50px;
@@ -53,21 +54,18 @@ main > p {
     height: 100vh;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.432);
 }
-article {
-    background-color: rgba(22, 22, 22, 0.527);
-    position: absolute;
-    width: 350px;
-    height: 300px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-article > p {
+
+section > p {
     color: white;
-    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-size: 3vw;
+    width: 40%;
     font-family: Sriracha, cursive;
-    padding-left: 20px;
-    margin: 0px;
+    padding: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-shadow: 1px 1px 0px black;
+    display: inline-block;
 }
 footer {
     background-color: black;
