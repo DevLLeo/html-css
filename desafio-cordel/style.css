@@ -37,35 +37,33 @@ main > p {
     font-size: 3vw;
     font-family: Sriracha, cursive;
     padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 #fundo01 {
     position: relative;
     background: black url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
-    height: 100vh;
     box-shadow: inset 6px 6px 13px black;
 }
 #fundo02 {
     position: relative;
     background: black url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
-    height: 100vh;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.432);
 }
-
-section > p {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section.imagem > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.349);
     font-size: 3vw;
-    width: 40%;
     font-family: Sriracha, cursive;
-    padding: 0px 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     text-shadow: 1px 1px 0px black;
     display: inline-block;
+    padding: 5px;
 }
 footer {
     background-color: black;
