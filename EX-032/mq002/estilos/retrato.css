@@ -2,7 +2,7 @@
 
 /* Configurações em pé */
 
-body {
+html, body {
     background-image: url(../cev-portrait.jpg);
     background-size: contain;
     background-repeat: no-repeat;
