@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: lightgray;
+}
+header {
+    background-color: gray;
+}
+header h1 {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+menu {
+    color: lightgray;
+    display: none;
+}
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+span#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+ul a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 10px;
+    background-color: rgb(75, 75, 75);
+}
+ul a:hover {
+    background-color: rgb(143, 142, 142);
+}
+menu ul {
+    list-style-type: none;
+}
+menu a {
+    display: block;
+}
+menu li {
+    text-align: center;
+    border: 0.5px solid gray;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 90vw;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+main h2 {
+    padding-bottom: 20px;
+}
+main p {
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    li {
+        display: inline-block;
+    }
+    main {
+        width: 500px;
+    }
+    span#burguer {
+        display: none;
+}
+    menu {
+        display: inline-block;
+    }
+}
